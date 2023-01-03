@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            width: ;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1 {
+            text-shadow: 2px 2px 5px black;
+        }
+
+        nav {
+            background-color:#919191;
+            padding: 3px;
+            text-align: center;
+        }
+
+        ul li {
+            display: inline-block;
+            list-style: none;
+            padding-left: 50px;
+        }
+
+        ul {
+            margin: 10px;
+        }
+
+        nav > ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        ul:hover  a {
+            color: #6773fc;
+            transition: 0.5s ease;
+        }
+
+        ul:hover li a:not(:hover) {
+            transition: 0.5s ;
+            color: #3b3b3b;
+        }
+
+        
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px 0px;
+            box-shadow: 4px 4px 9px 1px #000;
+        }
+
+        article {
+            background-color: lightgrey;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(161, 161, 161);
+        }
+
+        article > p {
+            text-indent: 15px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #141414;
+            color: aliceblue;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+     
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <ul>
+                <li><a href="">MENU</a></li>
+                <li><a href="">LINK</a></li>
+                <li><a href="">SOBRE</a></li>
+                <li><a href="">FALE CONOSCO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed saepe accusamus inventore, rem maiores non atque laudantium recusandae labore magnam quidem iusto odit corporis quam, iste sapiente illum molestiae dolorem.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quasi magnam harum expedita ad culpa explicabo et fugit, sunt modi soluta libero nihil neque accusantium aspernatur suscipit dolorem impedit laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa perferendis dicta iste vero, quam repellendus! Quisquam ab quaerat dignissimos ea iusto ipsum pariatur ipsa nostrum dolor, officiis vero, atque sint?</p>
+                <aside>
+                    <p>Artigo escrito por José.</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por mim.</p>
+    </footer>
+
+</body>
+</html>
