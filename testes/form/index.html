@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+              
+    </header>
+
+    <div id="formulario">
+        <form class="form">
+            <div id="header"><h1>Formulário</h1> </div>
+            
+            <div id="form-sec">
+                <label for="nome">nome</label>           
+                <input type="text" id="nome" autocomplete="off">
+            </div>
+
+            <div id="form-sec">
+                <label for="email">email</label>
+                <input type="email" id="email" autocomplete="off">
+            </div>
+
+            <div id="form-sec">
+                <label for="idade">idade</label>
+                <input type="number" id="date" max="100" min="18">
+            </div>
+
+            <div id="form-sec1">
+                <p>Tem ensino médio completo?</p>
+                <input type="radio" name="ensino" id="ensino-sim" value="Sim">
+                <label for="ensino">Sim</label>
+                <input type="radio" name="ensino" id="ensino-nao" value="Não">
+                <label for="ensino">Não</label>
+            </div>
+
+            <div id="curso">
+                <label for="cursos">Escolha qual curso deseja fazer:</label>
+                <select name="cursos" id="cursos">
+                    <option value="html">HTML5 e CSS</option>
+                    <option value="js">JavaScript</option>
+                    <option value="py">Python</option>
+                    <option value="react">React</option>
+                </select>
+            </div>
+            
+
+            <div id="form-submit">
+                <input type="submit" value="Enviar" id="btn">
+                <p>Formulário para testes criado por: Marcus V. Rodrigues</p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

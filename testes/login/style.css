@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #454d6b;
+}
+
+#login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form {
+    background-color: rgba(19, 19, 19, 0.3);
+    padding: 40px;
+    border-radius: 5px;
+    width: 280px;
+}
+
+.form-header {
+    padding-bottom: 40px;
+    opacity: 0.8;
+    color: #fff;
+}
+
+.form-header h2 {
+    text-transform: uppercase;
+    width: auto;
+    padding: 10px;
+    border-top: #fff solid 3px;
+    border-left: #a13854 double 3px;
+}
+
+.form-header p {
+    color: #b2b2b2;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8em;
+    width: auto;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-bottom: #fff solid 3px;
+    border-right: #a13854 double 3px;
+}
+
+.form-header::after {
+    content: "";
+    width: 70px;
+    height: 1px;
+    display: block;
+    margin-top: -17px;
+    margin-left: -5px;
+}
+
+.form-content label {
+    color: #fff;
+    font-size: 0.8em;
+    opacity: 0.8;
+}
+
+.form-content-area {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+
+.form-content-area input {
+    margin-top: 10px;
+    padding: 0px 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #e1e1e1;
+    outline: none;
+    color: #fff;
+}
+
+.form-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-footer .submit {
+    width: 100%;
+    height: 40px;
+    background-color: #a13854;
+    border: none;
+    color: #e1e1e1;
+    margin: 10px 0px;
+    text-transform: uppercase;
+}
+
+.form-footer .submit:hover {
+    cursor: pointer;
+    background-color: #a138548d;
+    transition: 0.3s ease;
+    color: #e1e1e1a3;
+    animation: ;
+}
+
+.form-footer a {
+    text-align: center;
+    font-size: 0.8em;
+    color: #fff;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.form-footer a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+
